@@ -9,7 +9,7 @@ public class NewClass : MonoBehaviour
     public float floatNum;
     public GameObject gameObj;
     
-    // Start is called before the first frame update
+   
     void Start()
     {
             print(nameString);
@@ -18,7 +18,7 @@ public class NewClass : MonoBehaviour
             print(gameObj);
     }
 
-    // Update is called once per frame
+
     void Update()
     {
     
