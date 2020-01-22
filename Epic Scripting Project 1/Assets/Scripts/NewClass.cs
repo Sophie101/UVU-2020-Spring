@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class NewClass : MonoBehaviour
 {
@@ -8,19 +9,17 @@ public class NewClass : MonoBehaviour
     public int intNum;
     public float floatNum;
     public GameObject gameObj;
+    public UnityEvent uEvent;
     
    
     void Start()
     {
-            print(nameString);
-            print(intNum);
-            print(floatNum);
-            print(gameObj);
+      uEvent.Invoke();
     }
 
 
     void Update()
     {
-    
+    print((floatNumber));
     }
 }
