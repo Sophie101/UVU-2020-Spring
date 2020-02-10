@@ -18,8 +18,7 @@ public class CharacterMovement : MonoBehaviour
     void Update()
     {
         positionDirection.x = Input.GetAxis("Vertical")*speed;
-        if(Input.GetButtonDown("Jump")
-        )
+        if(Input.GetButtonDown("Jump"))
         {
             positionDirection.y = jumpForce;
         }
