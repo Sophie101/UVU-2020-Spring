@@ -680,9 +680,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '000
-
-'
+  m_Text: 
 --- !u!222 &1677339726
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -777,7 +775,7 @@ Transform:
   m_GameObject: {fileID: 1899842842}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.65, y: -0.87, z: -3.2392755}
-  m_LocalScale: {x: 10.501, y: 1, z: 6.9917}
+  m_LocalScale: {x: 24.951427, y: 1, z: 6.9917}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -913,7 +911,7 @@ PrefabInstance:
     - target: {fileID: 5466172959416349268, guid: f2ccbd1de9391460db59e220cd98aa04,
         type: 3}
       propertyPath: triggerEnterEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_FloatArgument
-      value: 0.1
+      value: -0.1
       objectReference: {fileID: 0}
     - target: {fileID: 5466172959416349269, guid: f2ccbd1de9391460db59e220cd98aa04,
         type: 3}
