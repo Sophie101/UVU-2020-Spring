@@ -1,18 +1,19 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.UI;
 
-public class ImageController : MonoBehaviour
+[RequireComponent(typeof(Image))]
+public class ImageBehaviour : MonoBehaviour
 {
-    // Start is called before the first frame update
+    private Image imageObj;
+    public FloatData dataObj;
+
     void Start()
     {
-        
+        imageObj = GetComponent<Image>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        imageObj.fillAmount = dataObj.value;
     }
 }
